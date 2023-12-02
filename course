@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinner Invitation</title>
+    <style>
+        body {
+            font-family: 'Special Elite', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .invitation {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        .courses {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .courses li {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .course-description {
+            text-align: left;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        iframe {
+            height: 10rem;
+            width: 20rem;
+            margin-left: 25%;
+        }
+        ul > li {font-weight: 700;}
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="invitation">
+        <h1>-Dinner Invitation-</h1>
+        <p>You are cordially invited to join us for an exquisite dining experience featuring 7 delightful meal courses.</p>
+
+        <h2>Menu</h2>
+        <ul class="courses">
+            <li>-Appetizer-</li>
+            <div class="course-description">
+                A tantalizing start to awaken your taste buds, crafted with the finest ingredients. Delight in the flavors of our carefully curated appetizer, designed to stimulate your appetite and set the tone for the evening.
+            </div>
+
+            <li>-Soup-</li>
+            <div class="course-description">
+                A warm and comforting bowl of goodness, prepared with love and tradition. Savor the richness of our hearty soup, made with the freshest ingredients to bring warmth and comfort to your palate.
+            </div>
+
+            <li>-Salad-</li>
+            <div class="course-description">
+                A refreshing blend of crisp greens and vibrant flavors, dressed to perfection. Indulge in the freshness of our signature salad, a harmonious combination of seasonal vegetables and zesty dressings.
+            </div>
+
+            <li>-Main Course-</li>
+            <div class="course-description">
+                An exquisite dish featuring the finest ingredients, expertly prepared for your enjoyment. Experience the culinary artistry in our main course, showcasing premium ingredients and impeccable preparation techniques.
+            </div>
+
+            <li>-Palette Cleanser-</li>
+            <div class="course-description">
+                A light and invigorating interlude to cleanse your palate and prepare for the next course. Refresh your taste buds with our palette cleanser, a delightful intermezzo designed to enhance the dining experience.
+            </div>
+
+            <li>-Dessert-</li>
+            <div class="course-description">
+                A sweet finale that promises to satisfy your sweet tooth and leave a lasting impression. Conclude your dining experience on a sweet note with our decadent dessert, skillfully crafted to delight your senses.
+            </div>
+
+            <li>-Coffee/Tea-</li>
+            <div class="course-description">
+                A perfect ending to your culinary journey, accompanied by a selection of fine coffees and teas. Wrap up the evening with a cup of exceptional coffee or tea, complementing the flavors of your memorable meal.
+            </div>
+        </ul>
+
+        <p>Please RSVP by [date]. We look forward to your presence.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.6205451660812!2d19.057034276751374!3d47.51678059417519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc0a60bb328b%3A0xc6c393246b3ad0ee!2zQnVkYXBlc3QsIFbDoWNpIMO6dCA0NCwgMTEzMg!5e0!3m2!1sen!2shu!4v1701559386768!5m2!1sen!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="social-links">
+            <a href="https://www.instagram.com/lepsiknorbert/" target="_blank">@lepsiknorbert</a>
+        </div>
+    </div>
+</body>
+</html>
